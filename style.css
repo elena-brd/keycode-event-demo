@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #ffdcc2;
+    color: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.key-box {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+    background: #fff7f1;
+    padding: 1.5rem 3.5rem;
+    border: #522500 2px solid;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px #522500;
+    min-width: 180px;
+}
+
+.key-box span {
+    position: absolute;
+    top: -28px;
+    font-size: 1rem;
+    color: #713200;
+}
